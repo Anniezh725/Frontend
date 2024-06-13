@@ -1,0 +1,227 @@
+<html>
+    <link rel="stylesheet" href="websystems.css"/>
+    
+    <title>Comments Page</title>
+    <div class="background">
+    <a class="current" href="index.html"><img src="images/peach.png" width="90" alt="Peach Home Button"></a>
+                
+
+        <div class="content">
+            <h1>31268 Web Assignment - Comments Page</h1>
+            <ol class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="past.html">Past</a></li>
+                <li><a href="future.html">Future</a></li>
+                <li><a class="current" href="comments.html">Comments</a></li>
+            </ol>
+
+            <p>This page discusses the purpose of the styles and formats used based on technical, aesthetics and accessibility aspects. </p>
+            <h4>Technical Aspects</h4>
+            <h5>Website Structure</h5>
+            <p>The structure of the website includes four html webpages with websites that links to each webpage. There is also a Cascading Style Sheet (CSS) to define the layout and style of these webpages </p>
+            <table>
+                <tr>
+                    <th>Page Title</br></th>
+                    <th>Filename</br></th>
+                    <th>Description</br></th>
+                </tr>
+                <tr>
+                    <td>Home Page</br></td>
+                    <td>index.html</br></td>
+                    <td>Home page of the websites</br></td>
+                </tr>
+                <tr>
+                    <td>Past Page</br></td>
+                    <td>past.html</br></td>
+                    <td>Past experiences and "achievements"</br></td>
+                </tr>
+                <tr>
+                    <td>Future Page</br></td>
+                    <td>future.html</br></td>
+                    <td>Future aspirations and plans</br></td>
+                </tr>
+                <tr>
+                    <td>Comments Page</br></td>
+                    <td>comments.html</br></td>
+                    <td>Explanation of the designs of the webpages (current page)</br></td>
+                </tr>
+            </table>
+            <p>The navigation of the pages is operated using a horizontal navigation bar which contains the other webpages (refer to the black writing and orange highlight in the image below). This was created using a list to store the different pages using a method from <a class="link" href="https://www.w3schools.com/css/css_navbar_horizontal.asp">W3Schools</a>.</p>
+            <img src="images/structure.png" alt="structure of the webpage">
+
+
+            <h5>HTML/Page Structure</h5>
+            <p>The structure of the page is set up to be divided into four main parts to set the structure of the page: .background, .menu(header), .content, .footer classes. The sections are described in the table below:</p>
+            <table>
+                <tr>
+                    <th>Tag/Classes</br></th>
+                    <th>Colour</br></th>
+                    <th>Description (Refer to Image Above)</br></th>
+                </tr>
+                <tr>
+                    <td>Background</br></td>
+                    <td>Red</br></td>
+                    <td>Sets the background colour(pale yellow) of the page with a small margin. The background was designed to have a white border from padding</br></td>
+                </tr>
+                <tr>
+                    <td>Header/Menu</br></td>
+                    <td>Orange</br></td>
+                    <td>Used to create a Horizontal Navigation Bar for a menu</br></td>
+                </tr>
+                <tr>
+                    <td>Content</br></td>
+                    <td>Blue</br></td>
+                    <td>To create a margin for the bodies of text for the webpage</br></td>
+                </tr>
+                <tr>
+                    <td>Footer</br></td>
+                    <td>Green</br></td>
+                    <td>Center text-alignment was used for formatting of the footer. This was a differnt div as footer requires a specific format thats separate of the contents</br></td>
+                </tr>
+            </table><br></br>
+
+
+            <h5>CSS Structure</h5>
+            <p>Main CSS Selectors used for the webpages:</p>
+            <table>
+                <tr>
+                    <th>Tag/Classes</br></th>
+                    <th>Type</br></th>
+                    <th>Purpose</br></th>
+                </tr>
+                <tr>
+                    <td>a (anchor)</br></td>
+                    <td>Element</br></td>
+                    <td>a:link, a:hover, a:active sets the colours of the text for the links to other webpages</br></td>
+                </tr>
+                 <tr>
+                    <td>li a</br></td>
+                    <td>Element</br></td>
+                    <td>Sets the background colour of the links from the menu bar</br></td>
+                </tr>
+                <tr>
+                    <td>hr</br></td>
+                    <td>Element</br></td>
+                    <td>Creates a Horizontal line dividing the contents of the page and the footer</br></td>
+                </tr>
+                <tr>
+                    <td>table</br></td>
+                    <td>Element</br></td>
+                    <td>Sets the layout and text colour of the table</br></td>
+                </tr>
+                <tr>
+                    <td>th, td</br></td>
+                    <td>Element</br></td>
+                    <td>Sets the padding and background colour of the header with th tag</br></td>
+                </tr>
+                <tr>
+                    <td>tr:nth-child()</br></td>
+                    <td>Element</br></td>
+                    <td>Sets the alternating colour of the data cells in the table</br></td>
+                </tr>
+                
+                <tr>
+                    <td>.Background</br></td>
+                    <td>Class</br></td>
+                    <td>Sets the background colour of the webpage</br></td>
+                </tr>
+                <tr>
+                    <td>.Header</br></td>
+                    <td>Class</br></td>
+                    <td>Used for the Horizontal Navigation Bar</br></td>
+                </tr>
+                <tr>
+                    <td>.Content</br></td>
+                    <td>Class</br></td>
+                    <td>To create a margin for the bodies of text for the webpage using padding</br></td>
+                </tr>
+                <tr>
+                    <td>.Footer</br></td>
+                    <td>Class</br></td>
+                    <td>Center text-alignment was used for formatting of the footer</br></td>
+                </tr>
+                <tr>
+                    <td>.underline</br></td>
+                    <td>Class</br></td>
+                    <td>Underlines the text</br></td>
+                </tr>
+                <tr>
+                    <td>#pika</br></td>
+                    <td>ID</br></td>
+                    <td>Sets a margin for the image of the "pet" in the home page</br></td>
+                </tr>
+            </table>
+            <h4>Aesthetics Aspects</h4>
+            <h5>Colour Scheme</h5>
+            <img src="images/colour-blind.png" alt="Colour Palette">
+            <p> Yellow and blue were found to be a relatively colour-blind friendly colours. After experimentation, blue was found to not match with many colours and was decided that it wasn't adequate to be used as a background. Pale yellow colour was therefore chosen to be used for the background. The colour palette of the webpage was then chosen from <a href="https://color.adobe.com/create/color-wheel">Adobe Colour</a> with adjustments. I wanted to base my colour scheme on something natural and took the inspiration of the colours of a peach. I believed anagolous colours would be aesthetically pleasing with modification to create enough contrast between the background and the body of text.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Colour Wheel Reference</br></th>
+                    <th>Position</br></th>
+                    <th>Colour/Resemblence (Refer to image below)</br></th>
+                </tr>
+                <tr>
+
+                    <td>A</br></td>
+                    <td>Menu:Current</br></td>
+                    <td>The Green colour acts as embellishment for the page and looks like the leaf of a peach</br></td>
+                </tr>
+                <tr>
+
+                    <td>B</br></td>
+                    <td>N/A</br></td>
+                    <td>Not Used</br></td>
+                </tr>
+                <tr>
+
+                    <td>C</br></td>
+                    <td>Background</br></td>
+                    <td>Pale Yellow resembles looks like the flesh of a peach</br></td>
+                </tr>
+                <tr>
+
+                    <td>D</br></td>
+                    <td>Text Colour</br></td>
+                    <td>Brown resemble the branches of a peach tree.</br></td>
+                </tr>
+                <tr>
+
+                    <td>E</br></td>
+                    <td>Table Headers and Menu</br></td>
+                    <td>Peachy Pink colour representing the outer skin of a peach</br></td>
+                </tr>
+            </table>
+            <img src="images/colour-wheel.png" alt="Colour Palette">
+            <h4>Acessibility Aspects</h4>
+            <p> The webpage follows the guidelines of <a class="link" href="https://www.w3.org/standards/webdesign/accessibility">W3C Accessibility Initiative(WAI)</a>.The webpage has been made accessible providing operable user interface with a navigation bar at the top of the page, to enable easy access and navigation through the websites for the user.
+            <br>Navigation Aids:
+            <ul>
+                <li>The current page is also highlighted within the navigation bar for the user to see which enables easier navigation.</li>
+                <li>Keyboard navigation is also available (and sufficient) for users that cannot use a mouse.</li>
+                <li>The current page in the navigation bar is highlighted so that the user knows the page they're on</li>
+                <li>An clickable image/icon acting as a home button was also implemented to provide even easier access for the user to go back to the home page (index.html).</li>
+
+            </ul>
+
+            </p>
+            
+            <p>The overall page also has relatively high contrast of 5.1 (refer to image below) between the with the background colour and the contents of the page using <a class="link" href="https://color.adobe.com/create/color-contrast-analyzer">Adobe Contrast Checker</a>. High contrast was achieved with the use of a dark brown colour for the text to be seen with ease in the background. The peach/pink coloured coloured navigational menu bar is also complimented with white texts which also contrasts with the darker peach/pink colour.</p>
+            <img src="images/contrast.png" alt="Colour Contrast" width="800px">
+            <p>The webpage also used a pale yellow background which is suited for vision impared users as it is a colour-blind friendly colour as mentioned above. This was also an attempt to make the page more gentle on the eyes by reducing the glare of an otherwise white screen. The use of alt for every images also enables the user to understand the content in the cases where the images cannot be seen or when screen readers are in use. 
+
+            <p>Font styles chosen were Arial and sans-serif fonts were used to keep the texts easy to read. Font sizes have also been kept relatively large for the user to be able to see the content from a distance with ease. 
+                Spacing between the words has also been taken into consideration. Paragraphs (p) and header (h1,h2,etc) elements were also used to separate headers for subtitiles and paragraphs for body of the text, following the WAI guidelines.</p>
+            </p>
+            A Horizontal line was also used as a page divider, to separate the contents of the page and marks the end of a page to achieve a cleaner page. This prevents confusion between the footer and web contents.
+            </p>
+
+            <div class="footer">
+                <hr class="line">
+                <img src="images/UTS.png" width = "100" alt="UTS logo">
+                <p>By: Potato | University of Technology, Sydney | Autumn 2022 | ID: 14281909</p>
+            </div>  
+        </div>
+    </div>
