@@ -4,4 +4,4 @@ This is a page for a frontend project I worked on for a school web development a
 
 I am still exploring various ways to improve my programming in both frontend and backend :D.
 
-Thank you for your time :).
+Thank you for reading this :).
