@@ -9,7 +9,7 @@ git clone https://github.com/Anniezh725/Frontend.git
 
 
 Here is a webpage to the contents of the website: (hopefully it works)
-// This would most likely be "unloaded because of inactivity"
+This would most likely be "unloaded because of inactivity"
 https://web.au.edusercontent.com/7q66ehn6oqsta4dmp5ctqfd3eg/websystems/comments.html
 
 Thank you for reading this :).
